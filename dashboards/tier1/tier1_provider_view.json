@@ -949,7 +949,7 @@
         "options": [],
         "query": "SELECT name FROM VOs",
         "refresh": 1,
-        "regex": "",
+        "regex": "/^(?!iris).*$/gm",
         "skipUrlSync": false,
         "sort": 0,
         "tagValuesQuery": "SELECT name FROM VAllVOs WHERE tag = '$tag'",
